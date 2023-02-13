@@ -1,9 +1,9 @@
 {
     "token": "",
-    "botId": "",
     "guildId": "",
     "welcomeChannelId": "",
     "introChannelId": "",
-    "rulesChannelId": ""
+    "rulesChannelId": "",
+    "welcomeDelay": ""
 }
   
