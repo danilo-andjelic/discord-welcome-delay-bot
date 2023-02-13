@@ -32,6 +32,7 @@ client.on('guildMemberAdd', member => {
       .setColor("#5921FF") 
       .setDescription(`Welcome to the largest Discord Server for the English rock band Muse! Feel free to introduce yourself in ${introductionChannel} and remember to read through ${rulesChannel}. We hope you enjoy your stay!`); // opis u config
       welcomeChannel.send({content: `Welcome to the server, ${member}!`, embeds: [embed]});
+      console.log(`${member.user.username}#${member.user.discriminator} welcomed successfully`);
     timeouts.delete(member.id);
   }, delay);
   timeouts.set(member.id, timeout);
