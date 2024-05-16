@@ -21,7 +21,7 @@ client.on("ready", () => {
   welcomeChannel = guild.channels.cache.get(welcomeChannelId);
   introductionChannel = guild.channels.cache.get(introChannelId);
   rulesChannel = guild.channels.cache.get(rulesChannelId);
-  console.log("Now online");
+  console.log("Now onlineee");
 });
 
 client.on('guildMemberAdd', member => {
